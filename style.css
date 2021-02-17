@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&family=Raleway&family=Roboto+Condensed&display=swap');
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    line-height: 1.4;
+    margin: 0px;
+    background-color: #ffffff;
+    background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+    background-attachment: fixed; 
+}
+
+h1, h2 {
+    font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+    color : rgb(111, 106, 106);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(109, 75, 75);
+    font-size: 23px;
+}
+
+a:hover {
+    background-color: #f3e6e8;
+    background-image: linear-gradient(315deg, #f3e6e8 0%, #d5d0e5 74%);
+}
+
+.header {
+    background-image: url("https://source.unsplash.com/random;");
+    background-size: cover;
+    color: white;
+    padding: 130px 0;
+}
+
+.header h1 {
+    font-size: 40px;
+}
+
+.header p {
+    font-size: 30px;
+}
+
+.container {
+    width: 700px;
+    margin: 50px auto;
+  }
+
+  @media(max-width: 992px) {
+    .container {
+      width: 700px;
+    }
+  }
+
+  @media (max-width: 720px) {
+    .container {
+      width: 500px;
+    }
+  }
+
+  @media(max-width: 576px) {
+      .container {
+          width: 300px;
+      }
+  }
